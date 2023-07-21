@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<style>
+    html {
+        height: 380px;  
+        width: 600px;      
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<body>
+    <div class="header">
+        <img src="/images/icons_html_files/twitch.png">
+        <p>Twitch</p>
+    </div>
+    <div class="search">
+        <center><input type="text" class="input" placeholder="Username" required>
+        <button type="submit" id="searchBTN" style="border: 0; background: transparent; cursor: pointer; margin-left: 10px; margin-top: 40px; position: absolute;">
+            <img src="/images/icons_html_files/search_loop.png" style="width: 24px; height: 24px;">
+        </button></center>
+    </div>
+    <div class="container">
+        <div class="title">
+            <p id="user">Twitch</p>
+            <div class="sous-title">
+                <p id="follow-user" class="follow-user-n">2.3 M followers</p>
+                <div class="line"></div>
+                <div id="desc-user" class="description"><p>Twitch est un service de streaming vidéo en direct et de VAD lancé en juin 2011 et exploité par Twitch Interactive.</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <img id="img-user" src="/images/exemples/twitch.png">
+        <div class="element-on-off">
+            <p id="on-off">Status</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="margin-bottom: 5px;">Made by Maxence R.</p>
+    </div>
+    <script src="/JS/GetUserTwitch.js"></script>
+</body>
+</html>
