@@ -1,6 +1,6 @@
 **Téléchargement et installation**
 
-1. Téléchargez l'extension à partir de `lien_vers_votre_projet`.
+1. Téléchargez l'extension à partir de `https://github.com/MaxenceR26/TwitchStention`.
 2. Décompressez le fichier ZIP téléchargé.
 3. Ouvrez Google Chrome, accédez à `chrome://extensions/`.
 4. Activez le "Mode développeur".
